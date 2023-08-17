@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="section-center">
+      <h2>BMI Calculator</h2>
+      <div class="weight">
+        <label for="uname" class="heading">Weight</label>
+        <br />
+        <input
+          type="text"
+          placeholder="Weight In kgs"
+          name="uname"
+          class="weight-value"
+        />
+      </div>
+      <div class="height">
+        <label for="uname" class="heading">Height</label>
+        <br />
+        <input
+          type="text"
+          placeholder="Height In Meeters"
+          name="uname"
+          class="height-value"
+        />
+      </div>
+      <div class="submit">
+        <button class="sub-btn">SUBMIT</button>
+      </div>
+    </section>
+    <section class="result hide-text">
+      <div>
+        <p class="bmi-result"></p>
+        <span class="text-result"></span>
+      </div>
+      <button class="ok-btn">Ok</button>
+    </section>
+
+    <script src="/js/app.js"></script>
+  </body>
+</html>

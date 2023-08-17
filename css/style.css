@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Kumbh+Sans:wght@400;700&family=Manrope:wght@500;700&family=Poppins:wght@400;700;900&family=Roboto:wght@400;700&display=swap");
+/* font-family: 'Roboto', sans-serif; */
+
+:root {
+  --font-family: "Poppins", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ede4ff;
+  font-family: var(--font-family);
+  padding: 1.5rem;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-weight: 400;
+  color: #55455b;
+}
+.section-center {
+  background: linear-gradient(90deg, #d0bff5, #d7bbf5);
+  padding: 1.5rem;
+  border-radius: 20px;
+  width: 300px;
+  margin: 100px auto;
+  position: relative;
+}
+.heading {
+  letter-spacing: 0.1rem;
+  color: #252031;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  /* padding-bottom: 2rem; */
+}
+.weight {
+  margin-bottom: 10px;
+}
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 12px;
+  border: none !important;
+}
+::placeholder {
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-size: 10px;
+  /* border: none; */
+}
+.submit {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.result {
+  position: relative;
+  top: 200px;
+  left: 0;
+  background-color: #cfc2f3;
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 2rem;
+  cursor: pointer;
+}
+.hide-text {
+  display: none;
+}
+.result h3 {
+  font-size: 1.4rem;
+  color: #252031;
+  letter-spacing: 0.1rem;
+}
+.bmi-result {
+  font-size: 1.2rem;
+  color: #4e18e3;
+}
+.close-btn {
+  margin: 0 0 0 280px;
+  color: #55455b;
+}
+.text-result {
+  color: #745cb6;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+/* btn section */
+.sub-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  letter-spacing: 0.1rem;
+  border: solid 2px transparent;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  font-size: 12px;
+}
+
+.ok-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  letter-spacing: 0.1rem;
+  border: solid 2px transparent;
+  cursor: pointer;
+  transition: all 0.3s linear;
+  font-size: 12px;
+  margin-top: 30px;
+}
+.sub-btn:hover,
+.ok-btn:hover {
+  background-color: transparent;
+  color: #fff;
+  border: solid 2px #ffff;
+}
